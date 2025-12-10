@@ -36,6 +36,7 @@ This project aims to decode EEG signals of Chinese continuous imagined speech, m
 
 ### 2. Semantic Label Mapping
 Raw Data → Semantic Category Mapping → High-level Category Simplification
+
 **Mapping basis**: Use the `textmap.json` file to map each stimulus sentence to its semantic category, then merge into high-level categories.
 
 ---
