@@ -29,10 +29,10 @@ This project aims to decode EEG signals of Chinese continuous imagined speech, m
 ### 1. Data Loading and Preprocessing
 - Load raw CHISCO EEG data
 - Apply standard preprocessing pipeline:
-  - Band-pass filtering (0.5-45 Hz)
+  - Normalize EEG signals to standardized range
   - Bad channel detection and interpolation
-  - Artifact removal (ICA)
-  - Re-referencing (average reference)
+  - Downsampling to manageable sampling rate
+
 
 ### 2. Semantic Label Mapping
 Raw Data → Semantic Category Mapping → High-level Category Simplification
@@ -78,19 +78,7 @@ Raw Data → Semantic Category Mapping → High-level Category Simplification
 
 ---
 
-## 📊 Expected Results
 
-### Performance Comparison
-| Model | Accuracy | Interpretability | Training Efficiency |
-|-------|----------|-----------------|---------------------|
-| IGN | 🎯 **Expected best** | ✅ **High** | ⚡ Medium |
-| Transformer | Secondary | ❌ Low | ⏳ Low |
-| EEG-CNN | Baseline | ⚠️ Medium | ⚡ High |
-
-### Interpretability Analysis
-- **Shapelets visualization**: Display discriminative temporal patterns learned by IGN
-- **Brain topography**: Identify brain regions associated with different semantic categories
-- **Temporal dynamics**: Analyze the time course of semantic processing
 
 ---
 
