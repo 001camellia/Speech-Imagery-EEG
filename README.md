@@ -1,16 +1,16 @@
 🧠 Continuous Speech Imagery Decoding: EEG Semantic Category Classification Based on CHISCO Dataset
 This project aims to decode EEG signals of Chinese continuous imagined speech, mapping brain activity to high-level semantic categories. Based on the CHISCO​ dataset released by Harbin Institute of Technology (currently the largest individual neural language decoding dataset), we explore the ability to decode semantic information from EEG signals during continuous imagined speech.
-🎯 Research Background
-Two Paradigms of Speech Imagery Decoding
-Paradigm
-Description
-Characteristics
-Discrete Speech Imagery​
-Subjects imagine single vowels or simple words
-Limited categories, relatively simple
-Continuous Speech Imagery​
-Subjects imagine complete sentences or passages
-More natural language, more challenging
+
+
+## 🎯 Research Background
+
+### Two Paradigms of Speech Imagery Decoding
+
+| Paradigm | Description | Characteristics |
+|----------|-------------|-----------------|
+| **Discrete Speech Imagery** | Subjects imagine single vowels or simple words | Limited categories, relatively simple |
+| **Continuous Speech Imagery** | Subjects imagine complete sentences or passages | More natural language, more challenging |
+
 Advantages of CHISCO Dataset
 Largest scale: Individual neural language decoding dataset
 Continuous decoding: First attempt to decode continuous imagined language
