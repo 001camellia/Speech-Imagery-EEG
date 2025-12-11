@@ -79,9 +79,6 @@ Raw Data → Semantic Category Mapping → High-level Category Simplification
 
 ---
 
-
-# 🧠 Continuous Speech Imagery Decoding: EEG Semantic Category Classification Based on CHISCO Dataset
-
 ## 🛠️ Technical Stack
 
 ## 📚 Dataset Download
