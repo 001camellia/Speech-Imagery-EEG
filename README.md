@@ -84,3 +84,27 @@ Raw Data → Semantic Category Mapping → High-level Category Simplification
 ---
 
 ## 🛠️ Technical Stack
+## Dataset Download
+
+### CHISCO Dataset
+- **Official Source**: OpenNeuro
+- **Description**: Large-scale Chinese continuous imagined speech EEG dataset
+
+### Example Datasets
+- **Source**: Timeseries Classification Website
+- **Purpose**: For testing and development
+
+## Quick Start Guide
+
+### Environment Setup
+**Note**: The code is currently under development
+
+### Running Experiments
+For classification experiments, run:
+bash ./reproduce/run_uea.sh
+复制
+### Steps
+1. **Download dependencies**: Ensure all required packages are installed
+2. **Prepare data**: Place dataset in the appropriate directory
+3. **Run script**: Execute the provided shell script to start training
+4. **Check results**: Monitor training progress and evaluate model performance
