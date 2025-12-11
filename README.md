@@ -84,12 +84,12 @@ Raw Data → Semantic Category Mapping → High-level Category Simplification
 ## 📚 Dataset Download
 
 ### CHISCO Dataset
-- **Official Source**: The complete CHISCO dataset can be downloaded from OpenNeuro
+- **Official Source**: The complete CHISCO dataset can be downloaded from OpenNeuro(https://openneuro.org/datasets/ds005170/versions/1.1.2)
 - **Description**: Large-scale Chinese continuous imagined speech EEG dataset
 
 ### Example Datasets
 For testing and development, example time series datasets can be obtained from:
-- Timeseries Classification Website
+- Timeseries Classification Website(https://timeseriesclassification.com/)
 
 ## 🚀 Quick Start Guide
 
@@ -98,8 +98,9 @@ For testing and development, example time series datasets can be obtained from:
 
 ### Running Experiments
 For classification experiments, run:
-bash
+```bash
 bash ./reproduce/run_uea.sh
+```
 ### Steps
 1. **Download dependencies**: Ensure all required packages are installed
 2. **Prepare data**: Place dataset in the appropriate directory
