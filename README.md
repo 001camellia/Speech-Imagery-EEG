@@ -80,31 +80,36 @@ Raw Data → Semantic Category Mapping → High-level Category Simplification
 ---
 
 
-
----
+# 🧠 Continuous Speech Imagery Decoding: EEG Semantic Category Classification Based on CHISCO Dataset
 
 ## 🛠️ Technical Stack
-## Dataset Download
+
+## 📚 Dataset Download
 
 ### CHISCO Dataset
-- **Official Source**: OpenNeuro
+- **Official Source**: The complete CHISCO dataset can be downloaded from OpenNeuro
 - **Description**: Large-scale Chinese continuous imagined speech EEG dataset
 
 ### Example Datasets
-- **Source**: Timeseries Classification Website
-- **Purpose**: For testing and development
+For testing and development, example time series datasets can be obtained from:
+- Timeseries Classification Website
 
-## Quick Start Guide
+## 🚀 Quick Start Guide
 
 ### Environment Setup
-**Note**: The code is currently under development
+**Note**: The code is currently under development. You can first run the example code to test environment setup.
 
 ### Running Experiments
 For classification experiments, run:
+bash
 bash ./reproduce/run_uea.sh
-复制
 ### Steps
 1. **Download dependencies**: Ensure all required packages are installed
 2. **Prepare data**: Place dataset in the appropriate directory
 3. **Run script**: Execute the provided shell script to start training
 4. **Check results**: Monitor training progress and evaluate model performance
+
+## Current Status
+- **Code refinement**: Ongoing improvements to the codebase
+- **Example available**: Use run_uea.sh to verify environment configuration
+- **Full pipeline**: Complete training pipeline will be available soon
